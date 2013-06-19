@@ -2,39 +2,64 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res" >
+        <source path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res" >
             <file
                 name="ic_launcher"
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\drawable-hdpi\ic_launcher.png"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\drawable-hdpi\ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\drawable-mdpi\ic_launcher.png"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\drawable-mdpi\ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\drawable-xhdpi\ic_launcher.png"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\drawable-xhdpi\ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\drawable-xxhdpi\ic_launcher.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
                 name="activity_main"
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\layout\activity_main.xml"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_latest"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\layout\fragment_latest.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_mysmart"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\layout\fragment_mysmart.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_perks"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\layout\fragment_perks.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_premium"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\layout\fragment_premium.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_services"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\layout\fragment_services.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="main"
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\menu\main.xml"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\menu\main.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\values\dimens.xml"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\values\dimens.xml"
                 qualifiers="" >
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
@@ -42,7 +67,7 @@
                 </dimen>
             </file>
             <file
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\values\strings.xml"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\values\strings.xml"
                 qualifiers="" >
                 <string name="mySmart" >mySmart
                 </string>
@@ -64,7 +89,7 @@
                 </string>
             </file>
             <file
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\values\styles.xml"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\values\styles.xml"
                 qualifiers="" >
 
                 <style
@@ -86,16 +111,16 @@
                 </style>
             </file>
             <file
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\values-sw600dp\dimens.xml"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\values-sw600dp\dimens.xml"
                 qualifiers="sw600dp" />
             <file
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\values-sw720dp-land\dimens.xml"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\values-sw720dp-land\dimens.xml"
                 qualifiers="sw720dp-land" >
                 <dimen name="activity_horizontal_margin" >128dp
                 </dimen>
             </file>
             <file
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\values-v11\styles.xml"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\values-v11\styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -106,7 +131,7 @@
                 </style>
             </file>
             <file
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\values-v14\styles.xml"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\values-v14\styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -116,36 +141,11 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
-            <file
-                name="fragment_latest"
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\layout\fragment_latest.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_premium"
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\layout\fragment_premium.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_services"
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\layout\fragment_services.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_perks"
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\layout\fragment_perks.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_mysmart"
-                path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\res\layout\fragment_mysmart.xml"
-                qualifiers=""
-                type="layout" />
         </source>
-        <source path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\build\res\rs\release" />
+        <source path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\build\res\rs\release" />
     </dataSet>
     <dataSet config="release" >
-        <source path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\release\res" />
+        <source path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\release\res" />
     </dataSet>
 
 </merger>

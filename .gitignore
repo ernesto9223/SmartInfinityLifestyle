@@ -1,1 +1,11 @@
+.gradle/
+.idea/
+gradle/
+build.gradle
+gradlew
+gradlew.bat
 local.properties
+settings.gradle
+SmartInfinityLifestyleProject.iml
+SmartInfinityLifestyle\build
+SmartInfinityLifestyle\libs

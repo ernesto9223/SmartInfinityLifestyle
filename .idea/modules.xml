@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SmartInfinityLifestyle/SmartInfinityLifestyle.iml" filepath="$PROJECT_DIR$/SmartInfinityLifestyle/SmartInfinityLifestyle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SmartInfinityLifestyleProject.iml" filepath="$PROJECT_DIR$/SmartInfinityLifestyleProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SmartInfinityLifestyle.iml" filepath="$PROJECT_DIR$/SmartInfinityLifestyle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SmartInfinityLifestyle/SmartInfinityLifestyle-SmartInfinityLifestyle.iml" filepath="$PROJECT_DIR$/SmartInfinityLifestyle/SmartInfinityLifestyle-SmartInfinityLifestyle.iml" />
     </modules>
   </component>
 </project>

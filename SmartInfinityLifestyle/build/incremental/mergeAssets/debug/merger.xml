@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\main\assets" />
+        <source path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="D:\Projects\SmartInfinityLifestyleProject\SmartInfinityLifestyle\src\debug\assets" />
+        <source path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\debug\assets" />
     </dataSet>
 
 </merger>

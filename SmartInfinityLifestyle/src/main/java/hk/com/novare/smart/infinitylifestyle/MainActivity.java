@@ -68,7 +68,7 @@ public class MainActivity extends FragmentActivity{
                 getActionBar().setSelectedNavigationItem(position);
             }
         });
-        getActionBar().setSelectedNavigationItem(0);
+        getActionBar().setSelectedNavigationItem(1);
     }
 
 

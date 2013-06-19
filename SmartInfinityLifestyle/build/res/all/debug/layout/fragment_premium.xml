@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
-
-</LinearLayout>
+    <TextView android:id="@+id/titlePvlg"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/privileges"
+              android:textStyle="bold"
+              android:textSize="40dp"
+              android:layout_centerHorizontal="true"/>
+    <ImageView android:id="@+id/imagePvlg"
+               android:src="@drawable/ic_launcher"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/titlePvlg"
+               android:layout_centerHorizontal="true"/>
+    <TextView android:id="@+id/descPvlg"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:text="@string/pvlgDescription"
+              android:layout_marginTop="10dp"
+              android:layout_below="@+id/imagePvlg"
+              android:layout_centerHorizontal="true"/>
+    <ListView android:id="@+id/lvMenu"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:layout_below="@+id/descPvlg"/>
+</RelativeLayout>

@@ -19,7 +19,6 @@ public class LatestFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_latest, container, false);
         Bundle args = getArguments();
-        ((TextView) rootView.findViewById(R.id.tvLatest)).setText(Integer.toString(args.getInt(ARG_OBJECT)));
         return rootView;
     }
 }

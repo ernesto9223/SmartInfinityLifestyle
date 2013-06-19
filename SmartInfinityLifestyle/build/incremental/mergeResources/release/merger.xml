@@ -69,23 +69,31 @@
             <file
                 path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\values\strings.xml"
                 qualifiers="" >
-                <string name="mySmart" >mySmart
-                </string>
                 <string name="services" >Services
                 </string>
                 <string name="action_settings" >Settings
                 </string>
+                <string name="call" >Call
+                </string>
                 <string name="perks" >Perks
                 </string>
-                <string name="app_name" >Smart Infinity Lifestyle
-                </string>
                 <string name="latest" >Latest
-                </string>
-                <string name="hello_world" >Hello world!
                 </string>
                 <string name="pvlgDescription" >Experience service like no other. Infinity is about world-class service. Services made with your lifestyle in mind.
                 </string>
                 <string name="privileges" >Privileges
+                </string>
+                <string name="mySmart" >mySmart
+                </string>
+                <string name="app_name" >Smart Infinity Lifestyle
+                </string>
+                <string name="sms" >SMS
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="imoDescription" >A team of dependable IMOs are available for network/mobile phone assistance with services such as text broadcasts, transferring contacts, photos and messages from old phones to new ones, technical mobile concerns, and plan requirements
+                </string>
+                <string name="imoTitle" >Infinity Management Officer
                 </string>
             </file>
             <file
@@ -141,6 +149,11 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="fragment_imo"
+                path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\src\main\res\layout\fragment_imo.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="D:\Projects\SmartInfinityLifestyle\SmartInfinityLifestyle\build\res\rs\release" />
     </dataSet>

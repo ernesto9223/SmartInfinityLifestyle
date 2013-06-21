@@ -1,5 +1,3 @@
-/*___Generated_by_IDEA___*/
-
 /** Automatically generated file. DO NOT MODIFY */
 package hk.com.novare.smart.infinitylifestyle;
 

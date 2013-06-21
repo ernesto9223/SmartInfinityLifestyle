@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SmartInfinityLifestyle.iml" filepath="$PROJECT_DIR$/SmartInfinityLifestyle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SmartInfinityLifestyle/SmartInfinityLifestyle-SmartInfinityLifestyle.iml" filepath="$PROJECT_DIR$/SmartInfinityLifestyle/SmartInfinityLifestyle-SmartInfinityLifestyle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../SmartInfinityLifestyleProject/SmartInfinityLifestyleProject.iml" filepath="$PROJECT_DIR$/../SmartInfinityLifestyleProject/SmartInfinityLifestyleProject.iml" />
     </modules>
   </component>
 </project>

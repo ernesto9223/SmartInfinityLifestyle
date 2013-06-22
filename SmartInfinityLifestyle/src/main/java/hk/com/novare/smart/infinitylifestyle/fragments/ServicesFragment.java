@@ -11,7 +11,7 @@ import hk.com.novare.smart.infinitylifestyle.R;
 /**
  * Created by Ado on 6/19/13.
  */
-public class ServicesFragment extends Fragment{
+public class ServicesFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

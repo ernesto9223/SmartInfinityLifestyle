@@ -1,5 +1,6 @@
 package hk.com.novare.smart.infinitylifestyle.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -14,6 +15,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import hk.com.novare.smart.infinitylifestyle.PremiumActivity;
 import hk.com.novare.smart.infinitylifestyle.R;
 import hk.com.novare.smart.infinitylifestyle.fragments.privileges.IMOFragment;
 
@@ -22,6 +24,7 @@ import hk.com.novare.smart.infinitylifestyle.fragments.privileges.IMOFragment;
  */
 public class PremiumFragment extends ListFragment {
     private static final String TAG = "hk.com.novare.smart.infinitylifestyle";
+    FragmentManager fm;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -29,22 +32,31 @@ public class PremiumFragment extends ListFragment {
         Bundle args = getArguments();
         ListView lv = (ListView) rootView.findViewById(android.R.id.list);
         String[] strs = new String[]{"Infinity Management Officer", "International Concierge", "Dedicated Hotline", "Priority at Smart Stores"};
-        final FragmentManager fm = getFragmentManager();
+        fm = getActivity().getSupportFragmentManager();
 
         ArrayAdapter<String> aa = new ArrayAdapter<String>(rootView.getContext(), android.R.layout.simple_list_item_1, strs);
         lv.setAdapter(aa);
-        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        lv.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Log.i(TAG, "item " + i + " selected");
-                if (i==0){
-                    Fragment imoFragment = new IMOFragment();
-                    FragmentTransaction ft = fm.beginTransaction();
-                    ft.replace(R.layout.fragment_premium, imoFragment);
-                    ft.commit();
-                }
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                Log.i(TAG, "item selected");
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                Log.i(TAG, "on nothing selected");
             }
         });
         return rootView;
+    }
+
+    @Override
+    public void onListItemClick(ListView l, View v, int position, long id) {
+        Log.i(TAG, "item " + position + " onlistitemclick");
+        Intent iPremium = new Intent(getActivity(), PremiumActivity.class);
+        Bundle bPremium = new Bundle();
+        bPremium.putInt("idx", position);
+        iPremium.putExtra("premiumItems", bPremium);
+        startActivity(iPremium);
     }
 }

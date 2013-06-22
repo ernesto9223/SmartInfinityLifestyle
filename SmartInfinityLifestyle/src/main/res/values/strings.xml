@@ -11,11 +11,23 @@
     <string name="mySmart">mySmart</string>
     <string name="call">Call</string>
     <string name="sms">SMS</string>
-    <string name="imoTitle">Infinity Management Officer</string>
+    <string name="title_privileges_imo">Infinity Management Officer</string>
+    <string name="title_privileges_intlconcierge">International Concierge</string>
+    <string name="title_privileges_dedicatedhl">Dedicated Hotline</string>
+    <string name="title_privileges_prioritystores">Priority at Smart Stores</string>
 
-    <string name="pvlgDescription">Experience service like no other. Infinity is about world-class service. Services made with your lifestyle in mind.
+    <string name="desc_privileges">Experience service like no other. Infinity is about world-class
+        service. Services made with your lifestyle in mind.
     </string>
-    <string name="imoDescription">A team of dependable IMOs are available for network/mobile phone assistance with services such as text broadcasts, transferring contacts, photos and messages from old phones to new ones, technical mobile concerns, and plan requirements
+    <string name="desc_privileges_imo">A team of dependable IMOs are available for network/mobile phone
+        assistance with services such as text broadcasts, transferring contacts, photos and messages
+        from old phones to new ones, technical mobile concerns, and plan requirements
+    </string>
+    <string name="desc_privileges_intlconcierge">An exclusive hotline dedicated for Infinity subscribers all your local and international lifestyle needs, and international medical and travel assistance.
+    </string>
+    <string name="desc_privileges_dedicatedhl">For inquiries and concerns. Infinity subscribers have a hotline readily accessible, 24/7. You may dial *800 from your Infinity handset to get in touch with dependable representatives
+    </string>
+    <string name="desc_privileges_prioritystores">This is just a placeholder.
     </string>
 
 </resources>

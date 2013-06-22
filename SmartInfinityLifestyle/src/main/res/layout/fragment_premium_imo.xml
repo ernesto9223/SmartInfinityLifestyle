@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <TextView android:id="@+id/title_imo"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/title_privileges_imo"
+              android:textStyle="bold"
+              android:textSize="30dp"
+              android:layout_centerHorizontal="true"/>
+    <ImageView android:id="@+id/image_imo"
+               android:src="@drawable/ic_launcher"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/title_imo"
+               android:layout_centerHorizontal="true"/>
+    <TextView android:id="@+id/imoDesc"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:text="@string/desc_privileges_imo"
+              android:layout_marginTop="10dp"
+              android:layout_below="@id/image_imo"
+              android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imoDesc"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/call"
+                android:id="@+id/btnCall"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/sms"
+                android:id="@+id/btnSMS"
+                />
+    </LinearLayout>
+</RelativeLayout>

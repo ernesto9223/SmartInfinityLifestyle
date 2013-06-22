@@ -1,4 +1,4 @@
-package hk.com.novare.smart.infinitylifestyle.fragments.privileges;
+package hk.com.novare.smart.infinitylifestyle.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -10,15 +10,15 @@ import android.view.ViewGroup;
 import hk.com.novare.smart.infinitylifestyle.R;
 
 /**
- * Created by Ado on 6/19/13.
+ * Created by Ado on 6/21/13.
  */
-public class IMOFragment extends Fragment {
+public class BlankFragment extends Fragment {
     private static final String TAG = "hk.com.novare.smart.infinitylifestyle";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_premium_imo, container, false);
-        Log.i(TAG, "in IMOFragment");
+        View rootView = inflater.inflate(R.layout.fragment_blank, container, false);
+        Log.i(TAG, "in blank fragment");
         return rootView;
     }
 }

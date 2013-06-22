@@ -12,13 +12,13 @@ import hk.com.novare.smart.infinitylifestyle.R;
 /**
  * Created by Ado on 6/19/13.
  */
-public class IMOFragment extends Fragment {
+public class DedicatedHotlineFragment extends Fragment {
     private static final String TAG = "hk.com.novare.smart.infinitylifestyle";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_premium_imo, container, false);
-        Log.i(TAG, "in IMOFragment");
+        View rootView = inflater.inflate(R.layout.fragment_premium_dedicatedhotline, container, false);
+        Log.i(TAG, "in DedicatedHotlineFragment");
         return rootView;
     }
 }
